@@ -1,10 +1,6 @@
-using JuMP;
-
-export β, δ
-
-model = Model()
-@variable(model, 10^-2 <= β <= 10^2)
-β = 1
-
-@variable(model, 10^-2 <= δ <= 10^2)
-δ = 0.1
+export Parameters 
+struct Parameters 
+    β::Number
+    δ::Number
+    Parameters(β,δ) = 10^2 >= β >= 10^-2 && 10^2 >= δ >= 10^-2 ? new(β,δ) : error("out of order")
+end

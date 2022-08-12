@@ -4,7 +4,7 @@ using DifferentialEquations
 
 export gaussKronrod
 
-function gaussKronrod(n0, β, δ, T, step)
+function gaussKronrod(β::Number, δ::Number, n0::Unsigned, T::Number, step::Unsigned)::Tuple{Array{Float64,1},Array{Float64,1}}
     f(n,p,t) = β - δ * n
     n0=n0
     tspan = (0.0, T)
