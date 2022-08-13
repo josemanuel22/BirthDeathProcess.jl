@@ -15,12 +15,10 @@ param = Parameters(1, 0.1)
 
 """
 Constructor for new parameters birth β and death δ. 
-    1000 >= β >= 0.001 
-    1000 >= δ >= 0.001 
 
 # Arguments
-    - `β::Number`: parameters birth
-    - `δ::Number`: parameters death        
+    - `β::Number`: parameters birth. 1000 >= β >= 0.001
+    - `δ::Number`: parameters death.  1000 >= δ >= 0.001 
 """
 function parameters(β::Number, δ::Number)::Parameters
     global param = Parameters(β, δ)

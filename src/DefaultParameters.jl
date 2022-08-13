@@ -1,5 +1,10 @@
 export Parameters
-
+"""
+Default values for the parameters birth (param.β) and death (param.δ)
+#Arguments
+    - `β::Number`: parameters birth. 1000 >= β >= 0.001 
+    - `δ::Number`: parameters death. 1000 >= δ >= 0.001 
+"""
 struct Parameters 
     β::Number
     δ::Number
