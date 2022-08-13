@@ -2,10 +2,11 @@ using Plots
 
 export plot
 
-function plot(times::Array{Float64,1}, population::Array{Float64,1}, n0::Number, β::Number, δ::Number)
-    scatter(times, population, title=string("Simulation β=", β, " and δ=", δ,". Initial population=", n0))
+function plot(times::Array{Float64,1}, population::Array{Float64,1}, n0::Number, param::Parameters)
+    scatter(times, population, title="Simulation β = $(param.β), and δ = $(param.δ). Initial population=$(n0)")
     xlabel!("Time (t)")
     ylabel!("Population (N)")
-    f(t)=(n0 - β/δ)*exp(-δ*t)+β/δ
-    plot!(f)
+    #plot the analytical solution
+    f(t)=(n0 - param.β/param.δ)*exp(-param.δ*t)+param.β/param.δ
+    plot!(f) 
 end
