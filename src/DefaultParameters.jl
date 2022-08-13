@@ -1,4 +1,5 @@
-export Parameters 
+export Parameters
+
 struct Parameters 
     β::Number
     δ::Number

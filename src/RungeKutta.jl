@@ -1,10 +1,8 @@
-include("BirthDeathProcess-DefaultValues.jl")
-
 using DifferentialEquations
 
-export gaussKronrod
+export runge_kutta
 
-function gaussKronrod(β::Number, δ::Number, n0::Number, T::Number, step::Number)::Tuple{Array{Float64,1},Array{Float64,1}}
+function runge_kutta(β::Number, δ::Number, n0::Number, T::Number, step::Number)::Tuple{Array{Float64,1},Array{Float64,1}}
     f(n,p,t) = β - δ * n
     n0=n0
     tspan = (0.0, T)
