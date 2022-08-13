@@ -26,7 +26,7 @@ end
 
 numerical_simulation(n0, T, step) = runge_kutta(param.β, param.δ, n0, T, step)
 
-stochastic_simulation(n0, T, step) = gillespie(param.β, param.δ, n0, T, step)
+stochastic_simulation(n0, T) = gillespie(param.β, param.δ, n0, T)
 
 plot(times, population) = plot(times, population)
 
