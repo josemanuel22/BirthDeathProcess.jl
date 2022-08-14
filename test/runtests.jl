@@ -22,7 +22,7 @@ end
         t,n = gillespie(0,0.001,1000,100)
         μ = 1000*exp(-0.001*t[end])
         θ = sqrt(var(n_array))
-        @test μ + 2*θ >= n[end] >= μ - 2*θ
+        @test μ + 4*θ >= n[end] >= μ - 4*θ
     end
     @testset "Pure birth Processs" begin
         n_array = Float64[]
@@ -32,7 +32,7 @@ end
         t,n = gillespie(1.3,0,1,100)
         μ = 1 + 1.3* t[end]
         θ = sqrt(var(n_array))
-        @test μ + 2*θ >= n[end] >= μ - 2*θ
+        @test μ + 4*θ >= n[end] >= μ - 4*θ
     end
     @testset "Steady State" begin
         n_array = Float64[]
@@ -42,7 +42,7 @@ end
         t,n = gillespie(10,1,10,100)
         μ = 10/1
         θ = sqrt(var(n_array))
-        @test μ + 2*θ >= n[end] >= μ - 2*θ
+        @test μ + 4*θ >= n[end] >= μ - 4*θ
     end
     @testset "Convergece to 0" begin
         n_array = Float64[]
@@ -53,7 +53,7 @@ end
         μ = 10/1
         θ = sqrt(var(n_array))
         #We check it goes to zero
-        @test μ + 2*θ >= n[end] >= 0
+        @test μ + 4*θ >= n[end] >= 0
     end
     @testset "Growth State" begin
         n_array = Float64[]
@@ -64,7 +64,7 @@ end
         μ = 1/0.1
         θ = sqrt(var(n_array))
         #We check it goes to the cocient β/δ
-        @test μ + 2*θ >= n[end] >= μ - 2*θ
+        @test μ + 4*θ >= n[end] >= μ - 4*θ
     end
 end
 
