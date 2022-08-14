@@ -6,7 +6,7 @@ export get_stats
 """
     get_stats(times::Array{Float64,1}, population::Array{Float64,1}, param::Parameters) -> (Float64, Float64)
 
-Get the statistics of the simulation.
+Get the statistics of the simulation. Return mean and standard deviation of the simulation with respect the analytical solution.
 
 # Arguments
     - `times::Array{Float64,1}`: array of times

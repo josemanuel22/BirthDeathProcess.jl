@@ -56,6 +56,11 @@ stochastic_simulation(param::Parameters, n0::Number, T::Number) = gillespie(para
 
 plot(times, population, n0, param) = plot(times, population, n0, param)
 
+"""
+    get_plots(param::Parameters, n0::Number, T::Number)
+
+Create a multi-plot for the simulation of the birth and death process process. 
+"""
 function get_plots(param::Parameters, n0::Number, T::Number)
     t, y = stochastic_simulation(param, n0, T)
     p = plot_solution(n0, param, T)
