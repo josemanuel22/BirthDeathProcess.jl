@@ -20,7 +20,7 @@ function plot(times::Array{Float64,1}, population::Array{Float64,1}, n0::Number,
 end
 
 function scatter_plot(times::Array{Float64,1}, population::Array{Float64,1}, n0::Number, param::Parameters)
-    scatter(times, population, title="Simulation β = $(param.β), and δ = $(param.δ). Initial population=$(n0)", smooth=true)
+    scatter(times, population, title="birth-rate = $(param.β), death-rate = $(param.δ). Initial population=$(n0)", smooth=true)
     xlabel!("Time (t)")
     #xlims!(0, times[end])
     ylabel!("Population (N)")
