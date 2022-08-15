@@ -33,9 +33,11 @@ the parameters β and δ. The ODE that determine the problem is n' = β - δ * n
     - `step::Number`: The number of steps of the simulation. Positive Number.
     
 # Example
-```julia-repl
+```
+julia-repl
 julia> numerical_simulation(param, 1, 20, 1)
 ([0.0, 1.0 … 18.0, 19, 20.0], [1.0, 1.8564632373325913 … 9.999991209587657]) 
+````
 """
 numerical_simulation(param::Parameters, n0::Number, T::Number, step::Number) = runge_kutta(param.β, param.δ, n0, T, step)
 
