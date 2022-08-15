@@ -3,13 +3,15 @@ using Statistics
 export get_stats
 
 """
-    get_stats(times::Array{Float64,1}, population::Array{Float64,1}, param::Parameters) -> (Float64, Float64)
+    get_stats(times::Array{Float64,1}, population::Array{Float64,1},
+     param::Parameters) -> (Float64, Float64)
 
-Get the statistics of the simulation. Return mean and standard deviation of the simulation with respect the analytical solution.
+Get the statistics of the simulation. Return mean and standard 
+deviation of the simulation with respect the analytical solution.
 
 # Arguments
     - `times::Array{Float64,1}`: array of times
-    - `population::Array{Float64,1}`: array of solution of the birth-death process
+    - `population::Array{Float64,1}`: array of solution of the process
     - `param::Array{Float64,1}`: param of the model
 
 # Example

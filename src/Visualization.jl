@@ -50,7 +50,8 @@ function plot(times::Array{Float64,1}, population::Array{Float64,1}, n0::Number,
 end
 
 """
-    scatter_plot(times::Array{Float64,1}, population::Array{Float64,1}, n0::Number, param::Parameters) -> Plot
+    scatter_plot(times::Array{Float64,1}, population::Array{Float64,1},
+     n0::Number, param::Parameters) -> Plot
 
 Create a scatter plot of the birth-death process to the current grafic.
 

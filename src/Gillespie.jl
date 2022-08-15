@@ -5,7 +5,8 @@ export gillespie
 _ex(tau::Number, mu::Number)::Number = - log(tau) / mu
 
 """
-    gillespie(β::Number, δ::Number, n::Number, T::Number) -> (Array{Float64,1}, Array{Float64,1})
+    gillespie(β::Number, δ::Number, n::Number, T::Number)
+     -> (Array{Float64,1}, Array{Float64,1})
 
 Gillespie algorithm (or occasionally the Doob-Gillespie algorithm)
 generates a statistically correct trajectory (possible solution) of
