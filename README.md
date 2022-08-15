@@ -20,7 +20,9 @@ To reproduce the enviroment for compiling the repository:
 ````
 (@v1.6) pkg>  activate pathToRepository/BirthDeathProcess
 ````
+## Presentation
 
+In the presentation folder, there is a beamer with a short presentation on the birth-death process and the implemented code.
 
 
 
