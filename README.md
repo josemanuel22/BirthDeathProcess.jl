@@ -9,10 +9,15 @@ Two algorithms are implemented for the resolution of this simple ODE. In the fir
 
 ## Installation
 
-To install BirthDeathProcess, simply use Julia's package manager:
-
+To install BirthDeathProcess, simply use Julia's package manager. The module is not registered so you need to clone the repository and follow the following steps:
 ````
-julia> Pkg.add("BirthDeathProcess")
+julia> push!(LOAD_PATH,pwd()) # You are in the BirthDeathProcess Repository
+julia> using BirthDeathProcess
+````
+
+To reproduce the enviroment for compiling the repository:
+````
+(@v1.6) pkg>  activate pathToRepository/BirthDeathProcess
 ````
 
 

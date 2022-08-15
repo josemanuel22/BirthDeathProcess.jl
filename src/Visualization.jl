@@ -3,7 +3,7 @@ using Plots
 export plot, display, scatter_plot, add_plot, plot_solution
 
 """
-    plot_solution(n0::Number, param::Parameters, T::Number) -> Plot
+    plot_solution(n0::Number, param::Parameters, T::Number)
 
 Plot the analytical solution of the birth-death process to the current grafic.
 
@@ -31,7 +31,7 @@ function add_plot(times::Array{Float64,1}, population::Array{Float64,1})
 end
 
 """
-    plot(times::Array{Float64,1}, population::Array{Float64,1} ) -> Plot
+    plot(times::Array{Float64,1}, population::Array{Float64,1} )
 
 Add a plot of the birth-death process to the current grafic.
 
@@ -51,7 +51,7 @@ end
 
 """
     scatter_plot(times::Array{Float64,1}, population::Array{Float64,1},
-     n0::Number, param::Parameters) -> Plot
+     n0::Number, param::Parameters)
 
 Create a scatter plot of the birth-death process to the current grafic.
 

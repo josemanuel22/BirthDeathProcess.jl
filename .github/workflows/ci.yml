@@ -57,7 +57,7 @@ jobs:
             Pkg.build("BirthDeathProcess")'
       - run: |
           julia --project=docs -e '
-            using Documenter
+            import Pkg; Pkg.add("Documenter")
             using BirthDeathProcess'
       - run: julia --project=docs docs/make.jl
         env:
