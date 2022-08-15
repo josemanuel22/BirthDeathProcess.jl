@@ -43,7 +43,7 @@ scatter_plot(times::Array{Float64,1}, population::Array{Float64,1},
 ## Stats
 
 ```@docs
-get_stats(times::Array{Float64,1}, population::Array{Float64,1},
-     param::Parameters) -> (Float64, Float64)
+get_stats(times::Array{Float64,1}, population::Array{Float64,1}, 
+    n0::Number, param::Parameters) -> (Float64, Float64)
 ```
 
