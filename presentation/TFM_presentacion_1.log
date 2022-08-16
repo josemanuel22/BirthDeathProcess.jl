@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2018.1.23)  15 AUG 2022 14:33
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2018.1.23)  16 AUG 2022 16:16
  restricted system commands enabled.
 **TFM_presentacion_1.tex
 (./TFM_presentacion_1.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.117 seconds
+luaotfload | main : initialization completed in 0.188 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2017/01/23 v3.41 A class for typesetting presentations
@@ -1201,25 +1201,28 @@ gb.tex ASCII Hyphenation patterns for British English
 (/usr/local/texlive/2017/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-en-
 gb.tex))))) (/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-) (./TFM_presentacion_1.aux)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(./TFM_presentacion_1.aux)
 \openout1 = TFM_presentacion_1.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1287,7 +1290,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box81
-Package hyperref Info: Link coloring OFF on input line 58.
+Package hyperref Info: Link coloring OFF on input line 60.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1297,56 +1300,56 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count301
 )
-LaTeX Info: Redefining \ref on input line 58.
-LaTeX Info: Redefining \pageref on input line 58.
-LaTeX Info: Redefining \nameref on input line 58.
+LaTeX Info: Redefining \ref on input line 60.
+LaTeX Info: Redefining \pageref on input line 60.
+LaTeX Info: Redefining \nameref on input line 60.
 
 (./TFM_presentacion_1.out) (./TFM_presentacion_1.out)
 \@outlinefile=\write6
 
 \openout6 = TFM_presentacion_1.out
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 58.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 60.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 58.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 60.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/lmr/m/n on input line 58.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 58.
+(Font)                  OT1/cmss/m/n --> T1/lmr/m/n on input line 60.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/lmss/bx/n on input line 58.
+(Font)                  OT1/cmr/bx/n --> T1/lmss/bx/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/lmss/bx/n on input line 58.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 58.
+(Font)                  OT1/cmr/bx/n --> T1/lmss/bx/n on input line 60.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/lmss/m/n on input line 58.
+(Font)                  OT1/cmss/m/n --> T1/lmss/m/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/lmss/m/n on input line 58.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 58.
+(Font)                  OT1/cmss/bx/n --> T1/lmss/m/n on input line 60.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/lmss/m/it on input line 58.
+(Font)                  OT1/cmr/m/it --> T1/lmss/m/it on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/lmss/m/it on input line 58.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 58.
+(Font)                  OT1/cmr/bx/it --> T1/lmss/m/it on input line 60.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/lmtt/m/n on input line 58.
+(Font)                  OT1/cmtt/m/n --> T1/lmtt/m/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/lmtt/m/n on input line 58.
+(Font)                  OT1/cmtt/m/n --> T1/lmtt/m/n on input line 60.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 58.
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 60.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 58.
+(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/lmr/bx/n on input line 58.
+(Font)                  OT1/cmss/bx/n --> T1/lmr/bx/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 58.
+(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 58.
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 58.
+(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 58.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 60.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -1372,22 +1375,22 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 58.
+LaTeX Info: Redefining \includegraphics on input line 60.
 \c@lstlisting=\count302
 
 (./TFM_presentacion_1.nav)
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 58.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 60.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <5> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 58.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 60.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 61.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 63.
 
 [1
 
@@ -1395,31 +1398,30 @@ LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
 (./TFM_presentacion_1.toc) [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 85.
+LaTeX Font Info:    Try loading font information for U+msa on input line 87.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 85.
+LaTeX Font Info:    Try loading font information for U+msb on input line 87.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+esint on input line 85.
+LaTeX Font Info:    Try loading font information for U+esint on input line 87.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 85.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 87.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 85.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 87.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 85.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 87.
  [3
 
 Missing character: There is no ’ (U+2019) in font ec-lmss10!
-Missing character: There is no β (U+03B2) in font ec-lmss10!
 ] [4
 
 ] [5
@@ -1431,88 +1433,104 @@ Missing character: There is no β (U+03B2) in font ec-lmss10!
 
 ] [8
 
-Missing character: There is no β (U+03B2) in font ec-lmss10!
 ]
-<./img/1_01_1.png, id=285, 602.25pt x 401.5pt>
+\openout4 = TFM_presentacion_1.vrb
+ (./TFM_presentacion_1.vrb
+<./img/code1.png, id=285, 438.63875pt x 91.34125pt>
+File: ./img/code1.png Graphic file (type png)
+ <use ./img/code1.png>
+Package luatex.def Info: ./img/code1.png used on input line 2.
+(luatex.def)             Requested size: 341.43306pt x 71.10092pt.
+
+<./img/code2.png, id=286, 797.98125pt x 290.08376pt>
+File: ./img/code2.png Graphic file (type png)
+ <use ./img/code2.png>
+Package luatex.def Info: ./img/code2.png used on input line 4.
+(luatex.def)             Requested size: 341.43306pt x 124.11832pt.
+)
+[9
+
+<./img/code1.png><./img/code2.png>]
+<./img/1_01_1.png, id=316, 602.25pt x 401.5pt>
 File: ./img/1_01_1.png Graphic file (type png)
  <use ./img/1_01_1.png>
-Package luatex.def Info: ./img/1_01_1.png used on input line 165.
+Package luatex.def Info: ./img/1_01_1.png used on input line 177.
 (luatex.def)             Requested size: 113.81102pt x 75.86919pt.
 
-<./img/1_01_1_2.png, id=286, 602.25pt x 401.5pt>
+<./img/1_01_1_2.png, id=317, 602.25pt x 401.5pt>
 File: ./img/1_01_1_2.png Graphic file (type png)
  <use ./img/1_01_1_2.png>
-Package luatex.def Info: ./img/1_01_1_2.png used on input line 165.
+Package luatex.def Info: ./img/1_01_1_2.png used on input line 177.
 (luatex.def)             Requested size: 113.81102pt x 75.86919pt.
 
-<./img/1_01_1_numerical.png, id=287, 602.25pt x 401.5pt>
+<./img/1_01_1_numerical.png, id=318, 602.25pt x 401.5pt>
 File: ./img/1_01_1_numerical.png Graphic file (type png)
 
 <use ./img/1_01_1_numerical.png>
-Package luatex.def Info: ./img/1_01_1_numerical.png used on input line 165.
+Package luatex.def Info: ./img/1_01_1_numerical.png used on input line 177.
 (luatex.def)             Requested size: 113.81102pt x 75.86919pt.
 
-<./img/1_01_10.png, id=288, 602.25pt x 401.5pt>
+<./img/1_01_10.png, id=319, 602.25pt x 401.5pt>
 File: ./img/1_01_10.png Graphic file (type png)
  <use ./img/1_01_10.png>
-Package luatex.def Info: ./img/1_01_10.png used on input line 165.
+Package luatex.def Info: ./img/1_01_10.png used on input line 177.
 (luatex.def)             Requested size: 113.81102pt x 75.86919pt.
 
-<./img/1_01_10_2.png, id=289, 602.25pt x 401.5pt>
+<./img/1_01_10_2.png, id=320, 602.25pt x 401.5pt>
 File: ./img/1_01_10_2.png Graphic file (type png)
  <use ./img/1_01_10_2.png>
-Package luatex.def Info: ./img/1_01_10_2.png used on input line 165.
+Package luatex.def Info: ./img/1_01_10_2.png used on input line 177.
 (luatex.def)             Requested size: 113.81102pt x 75.86919pt.
 
-<./img/1_01_20.png, id=290, 602.25pt x 401.5pt>
+<./img/1_01_20.png, id=321, 602.25pt x 401.5pt>
 File: ./img/1_01_20.png Graphic file (type png)
  <use ./img/1_01_20.png>
-Package luatex.def Info: ./img/1_01_20.png used on input line 165.
+Package luatex.def Info: ./img/1_01_20.png used on input line 177.
 (luatex.def)             Requested size: 113.81102pt x 75.86919pt.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <9> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 165.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 177.
 
-[9
+[10
 
 <./img/1_01_1.png><./img/1_01_1_2.png><./img/1_01_1_numerical.png><./img/1_01_10
 .png><./img/1_01_10_2.png><./img/1_01_20.png>]
-<./img/1_05_1.png, id=324, 602.25pt x 401.5pt>
+<./img/1_05_1.png, id=355, 602.25pt x 401.5pt>
 File: ./img/1_05_1.png Graphic file (type png)
  <use ./img/1_05_1.png>
-Package luatex.def Info: ./img/1_05_1.png used on input line 178.
+Package luatex.def Info: ./img/1_05_1.png used on input line 190.
 (luatex.def)             Requested size: 113.81102pt x 75.86919pt.
 
-<./img/1_02_10.png, id=325, 602.25pt x 401.5pt>
+<./img/1_02_10.png, id=356, 602.25pt x 401.5pt>
 File: ./img/1_02_10.png Graphic file (type png)
  <use ./img/1_02_10.png>
-Package luatex.def Info: ./img/1_02_10.png used on input line 178.
+Package luatex.def Info: ./img/1_02_10.png used on input line 190.
 (luatex.def)             Requested size: 113.81102pt x 75.86919pt.
 
-<./img/1_001_10.png, id=326, 602.25pt x 401.5pt>
+<./img/1_001_10.png, id=357, 602.25pt x 401.5pt>
 File: ./img/1_001_10.png Graphic file (type png)
  <use ./img/1_001_10.png>
-Package luatex.def Info: ./img/1_001_10.png used on input line 178.
+Package luatex.def Info: ./img/1_001_10.png used on input line 190.
 (luatex.def)             Requested size: 113.81102pt x 75.86919pt.
 
-<./img/1_01_1_multiple.png, id=327, 602.25pt x 401.5pt>
+<./img/1_01_1_multiple.png, id=358, 602.25pt x 401.5pt>
 File: ./img/1_01_1_multiple.png Graphic file (type png)
 
 <use ./img/1_01_1_multiple.png>
-Package luatex.def Info: ./img/1_01_1_multiple.png used on input line 178.
+Package luatex.def Info: ./img/1_01_1_multiple.png used on input line 190.
 (luatex.def)             Requested size: 170.71652pt x 113.80992pt.
- [10
+ [11
 
 <./img/1_05_1.png><./img/1_02_10.png><./img/1_001_10.png><./img/1_01_1_multiple.
-png>] (./TFM_presentacion_1.toc) [11
+png>] (./TFM_presentacion_1.toc) [12
 
 ]
-[12
+[13
 
-] [13
+] [14
 
-] (./TFM_presentacion_1.bbl) [14
+] (./TFM_presentacion_1.bbl) [15
 
 </usr/local/texlive/2017/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>]
 \tf@nav=\write7
@@ -1524,24 +1542,24 @@ png>] (./TFM_presentacion_1.toc) [11
 \tf@snm=\write9
 
 \openout9 = TFM_presentacion_1.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
  (./TFM_presentacion_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
 Package rerunfilecheck Info: File `TFM_presentacion_1.out' has not changed.
 (rerunfilecheck)             Checksum: D1898971FC4678A9A3AF223DA6428848;245.
 )
 
 Here is how much of LuaTeX's memory you used:
- 31862 strings out of 494481
+ 31953 strings out of 494481
  100000,794899 words of node,token memory allocated
  3588 words of node memory still in use:
    43 hlist, 10 vlist, 7 rule, 16 disc, 9 local_par, 95 glue, 9 kern, 25 penalty
 , 186 glyph, 82 attribute, 71 glue_spec, 82 attribute_list, 3 write, 2 pdf_dest,
  38 pdf_colorstack nodes
-   avail lists: 2:800,3:284,4:126,5:219,6:1442,7:500,8:68,9:283,10:18,11:117
- 34541 multiletter control sequences out of 65536+600000
+   avail lists: 2:800,3:284,4:126,5:215,6:1459,7:502,8:91,9:283,10:18,11:145
+ 34596 multiletter control sequences out of 65536+600000
  56 fonts using 3678935 bytes
  58i,16n,63p,810b,740s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/tex
@@ -1557,10 +1575,10 @@ lic/lm/lmss8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmss9
 .pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/lm/lmsso8.pfb>
-Output written on TFM_presentacion_1.pdf (14 pages, 498706 bytes).
+Output written on TFM_presentacion_1.pdf (15 pages, 536825 bytes).
 
-PDF statistics: 529 PDF objects out of 1000 (max. 8388607)
- 459 compressed objects within 5 object streams
- 35 named destinations out of 1000 (max. 131072)
+PDF statistics: 560 PDF objects out of 1000 (max. 8388607)
+ 485 compressed objects within 5 object streams
+ 37 named destinations out of 1000 (max. 131072)
  102 words of extra memory for PDF output out of 10000 (max. 100000000)
 

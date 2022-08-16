@@ -1,11 +1,6 @@
-\frametitle{My Strengths and Researcher Wishes}
-
-I want to dedicate myself to the study of computational mathematics. I wish to learn and develop new numerical and statistical methods and apply them to the simulation of physical problems.
-
-\begin{itemize}
-\setlength\itemsep{1em}
-\item International experience, student and working abroad.
-\item A double bachelor's degree in pure mathematics and computer engineering with recognized experience.
-\item Experience and desire to learn about numerical simulation (worked on modelization of Rayleigh-Bénard convection using spectral methods) and numerical methods (finite elements, Monte-Carlos, etc.). Wish to combine the later with modern statistical tools that help me understand complex phenomena of the real world.
-\item  Desire to develop open-source programs and libraries from the research we carry out. I have already contributed to open-source projects, like Julia. I think we can take advantage of the latter to develop new modern libraries.
-\end{itemize}
+\begin{figure}[h]
+\includegraphics[width=12cm]{code1}
+\vspace{1cm}
+\includegraphics[width=12cm]{code2}
+%\caption{Some examples of simulation}
+\end{figure}

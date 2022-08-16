@@ -19,6 +19,8 @@
 \usepackage[british]{babel}
 \usepackage{setspace}
 
+\graphicspath{ {./img/} }
+
 \lstdefinestyle{Python}{
     language        = Python,
     basicstyle      = \ttfamily,
@@ -26,10 +28,10 @@
     keywordstyle    = [2] \color{teal}, % just to check that it works
     %stringstyle     = \color{green},
     commentstyle    = \color{red}\ttfamily
+    tabsize=2
 }
 
-\graphicspath{ {./img/} }
-
+\lstset{style=Python}
 
 %\usefonttheme[onlymath]{serif}
 %\usepackage{amsfonts, amssymb, amsmath, amsthm}
@@ -46,7 +48,7 @@
 
  
 %Information to be included in the title page:
-\title[]{Birth-Death Processe}
+\title[]{Birth-Death Process}
 %\subtitle{\footnotesize Supervisors:  Frederic Nataf \& Taraneh Sayadi}
 \author[Jose Manuel de Frutos]{\sc  Jose Manuel de Frutos}
 \institute[]{\textbf {}}
@@ -80,7 +82,7 @@
 \beta_{birth} = (constant)\\
 \beta_{death}  = (k_0)*n
 \end{align*}
-\item $\beta_{birth}$  and $(k_0)$ are parameters of the model that would, in principle, be determined by experimental measurements. Both β rates have units of [events/time].
+\item $\beta_{birth}$  and $(k_0)$ are parameters of the model that would, in principle, be determined by experimental measurements. Both rates have units of [events/time].
 \end{itemize}
 \end{frame}
 
@@ -90,7 +92,7 @@
 \begin{itemize}
 \item Deterministically, the population size $n$ can be described by the ordinary differential equation:
 \begin{align*}
-\frac{dn(t)}{dt} = b - b \cdot n(t)
+\frac{dn(t)}{dt} = \beta - d \cdot n(t)
 \end{align*}
 \item Solving this differential equation we get:
 \begin{align*}
@@ -101,13 +103,14 @@ Where $c=n(0)-\beta/d$.
 \end{frame}
 
 \begin{frame}
-\frametitle{Extreme solutions}
+\frametitle{Solutions}
 Simplest cases of pure birth process and pure death process.
 \begin{itemize}
 \item \textbf{pure birth process}, the governing equation is: $n(t)=b\cdot t + n(0)$. So any numerical solution that we obtain has to follow a linear pattern of $\beta$ slope, for this case.
 \item \textbf{pure death process}, the  governing equation is: $n(t)=e^{-d\cdot t}+n(0)-1$. In this case the decreasing exponential pattern has to be observed.
-\item General equation, we obtain the asymptotic trend. With previous solution for the general problem: $n=\beta/d$. The concavity will depend on the value of $C$.
 \end{itemize}
+\vspace{0.5cm}
+General equation, we obtain the asymptotic trend. With previous solution for the general problem: $n=\beta/d$. The concavity will depend on the sign of $C$.
 \end{frame}
 
 
@@ -124,12 +127,12 @@ Simplest cases of pure birth process and pure death process.
 \item Two possible events that might occur and these might each happen at different rates: birth and death.
 
 \begin{align*}
-\frac{P_{death}}{P_{birth}+P_{death}}= \frac{d\cdot N}{\beta + d\cdot N}, \qquad \frac{P_{birth}}{P{death}+P_{birth}}= \frac{\beta}{\beta + d\cdot N}
+\frac{trial_{death}}{trial_{birth}+trial_{death}}= \frac{d\cdot N}{\beta + d\cdot N}, \qquad \frac{trial_{birth}}{trial_{death}+trial_{birth}}= \frac{\beta}{\beta + d\cdot N}
 \end{align*}
 
-\item \textbf{Bernoulli Trial}. Event can either be a birth or a death, need to be able determine which event actually occured. We choose a random number between $(0,1)$ and see if it is less than $\frac{d\cdot N}{\beta + d\cdot N}$ or bigger. In each case we add or subtract an individual to the population (Monte-Carlo).
+\item \textbf{Bernoulli Trial}. Event can either be a birth or a death, need to determine which event actually occured. Choose a random number between $(0,1)$ and see if it is less than $\frac{d\cdot N}{\beta + d\cdot N}$ or bigger. In each case we add or subtract an individual to the population (Monte-Carlo simulation).
 
-\item For simplicity and to avoid divisions, we take a random number between $(0,d\cdot N)$. And we check that it is less than or greater than $d\cdot N$.
+\item For simplicity and to avoid divisions, we take a random number between $(0,d\cdot N+\beta)$. And we check that it is less than or greater than $d\cdot N$.
 \end{itemize}
 
 \end{frame}
@@ -137,7 +140,7 @@ Simplest cases of pure birth process and pure death process.
 
 \begin{frame}
 \begin{itemize}
-\item Events in birth-death processes do not occur at regular time intervals; instead we can only say that the odds of an event occurring within any small time interval $\Delta t$ is equal to $a_{0} \Delta t$, where β is the mean rate of event occurrences. A sequence of random wait times is an example of what is called a ``Poisson Process."
+\item Events in birth-death processes do not occur at regular time intervals. We can only say that the odds of an event occurring within any small time interval $\Delta t$ is equal to $a_{0} \Delta t$, where $a_0$ is the mean rate of event occurrences. A sequence of random wait times is an example of what is called a ``Poisson Process."
 
 \item Wait-times between sequential events follow an exponential distribution where the probability of the next event occurring after a duration $\tau$ (give-or-take $\Delta t$) is given by:
 
@@ -147,6 +150,15 @@ P(\tau) = a_{0} \cdot e^{-a_0 \cdot \tau}
 
 \item By \textbf{superposition property} we get that $\tau = - \frac{\log{r}}{\beta + d\cdot x}$. Where $r$ is a random number between $(0,1)$.
 \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\begin{figure}[h]
+\includegraphics[width=12cm]{code1}
+\vspace{1cm}
+\includegraphics[width=12cm]{code2}
+%\caption{Some examples of simulation}
+\end{figure}
 \end{frame}
 
 \begin{frame}
@@ -197,11 +209,12 @@ Finally we have implemented tests and a documentation in html. These are located
 
 \begin{frame}
 \frametitle{Github-ci workflow}
-We have also implemented a github ci workflow. Find it ci.yml.
+We have also implemented a github-ci workflow (ci.yml).
 \begin{itemize}
 \item Compiles the package for different versions of julia and in mac, windows and ubuntu environments.
 \item Run the package tests. We have enabled a code coverage manager (codecov).
 \item Generate the documentation. Created with Documenter.jl
+\item Thanks to Julia's package manager, by having \textbf{Manifest.toml}, \textbf{Project.toml}, we can reproduce the environment with which this package has been developed and thus ensure \textbf{reproducibility}.
 \end{itemize}
 \end{frame}
 
