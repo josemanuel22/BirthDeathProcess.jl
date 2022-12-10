@@ -1,5 +1,0 @@
-\select@language {british}
-\beamer@sectionintoc {1}{Birth-Death Process Theory}{3}{0}{1}
-\beamer@sectionintoc {2}{Stochastic Simulation Algorithm}{6}{0}{2}
-\beamer@sectionintoc {3}{Structure of BirthDeathProcess package}{12}{0}{3}
-\beamer@sectionintoc {4}{References}{15}{0}{4}
